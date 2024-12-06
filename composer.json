@@ -1,0 +1,28 @@
+{
+    "name": "bektigalan/osm-address",
+    "description": "tools untuk mendapatkan kota/kodepos/provinsi dari alamat yang dimasukkan",
+    "type": "library",
+    "require": {
+        "geocoder-php/common-http": "^4.6",
+        "geocoder-php/nominatim-provider": "^5.7",
+        "php-http/guzzle7-adapter": "^1.1",
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bektigalan\\OsmAddress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bekti Galan",
+            "email": "bektigprasetyo@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
